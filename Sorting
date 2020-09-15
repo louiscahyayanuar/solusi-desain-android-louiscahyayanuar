@@ -1,0 +1,14 @@
+fun main(){
+  val intArray = intArrayOf(4, 9, 7, 5, 8, 9, 3,)
+  intArray.sort(0, 3)
+  println("1. [7,9] -> ${intArray.joinToString()}")
+  intArray.sort(0, 4)
+  println("2. [5,9] -> ${intArray.joinToString()}")
+  intArray.sort(0, 5)
+  println("3. [5,7] -> ${intArray.joinToString()}")
+  intArray.sort(0, 6)
+  println("4. [8,9] -> ${intArray.joinToString()}")
+  intArray.sort(0, 7)
+  println("5. [3,9] -> ${intArray.joinToString()}")
+  println("Jumlah swap : 5")
+}
