@@ -1,0 +1,12 @@
+fun main(){
+  var a = "Burger"
+  var b = "Fries"
+  var c = "Chiken"
+  var d = "Pizza"
+  var e = "Sandwich"
+  var f = "Onion Ring"
+  var g = "Milkshake"
+  var h = "Coke"
+  
+  println("$a $b $c $d $e $f $g $h")
+}
