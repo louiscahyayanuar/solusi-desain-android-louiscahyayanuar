@@ -1,0 +1,9 @@
+fun main(){
+    val a : Array<Byte> = arrayOf(1,2,3)
+    print("Masukkan Angka : ")
+    val nilai = readLine()!!.toInt()
+    var hasil = nilai * a[0]
+    var hasil2 = nilai * a[1]
+    var hasil3 = nilai * a[2]
+    println("[[ $hasil,$hasil2,$hasil3 ]]")
+}
