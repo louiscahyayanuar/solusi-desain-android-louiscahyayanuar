@@ -1,0 +1,10 @@
+fun hello(name: String = "John"){
+        if(name == "John"){
+            println("Hello,$name")
+        }else{
+            println("Hello, World!")
+        }
+    }  
+    fun main(){
+        hello()
+    } 
